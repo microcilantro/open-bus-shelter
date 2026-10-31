@@ -1,0 +1,32 @@
+name: Accessibility
+description: Wheelchair space, clear path, headroom, seating, boarding or wayfinding.
+title: "[Accessibility] "
+labels: ["accessibility", "needs-triage"]
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: What's the accessibility concern?
+    validations:
+      required: true
+  - type: dropdown
+    id: who
+    attributes:
+      label: Who does it affect?
+      multiple: true
+      options:
+        - Wheelchair and mobility-device users
+        - People who are blind or have low vision
+        - Older riders / people who need to sit
+        - People with strollers or carts
+        - Everyone
+        - Other
+  - type: input
+    id: standard
+    attributes:
+      label: Standard or guideline, if any
+      placeholder: "2010 ADA Standards 810.3, PROWAG R308"
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested change

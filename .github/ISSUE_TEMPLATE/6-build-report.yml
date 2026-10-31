@@ -1,0 +1,37 @@
+name: Build report
+description: You built a prototype or test assembly. Tell us how it went.
+title: "[Build] "
+labels: ["build-report"]
+body:
+  - type: input
+    id: revision
+    attributes:
+      label: Revision built
+      placeholder: "Rev A"
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where (city / country) and type of site
+      placeholder: "San Diego, CA; test yard, not a live stop"
+  - type: input
+    id: time
+    attributes:
+      label: Crew size and total time
+      placeholder: "2 people, 6 hours"
+  - type: textarea
+    id: went-well
+    attributes:
+      label: What went well
+  - type: textarea
+    id: problems
+    attributes:
+      label: Problems, substitutions or extra parts needed
+    validations:
+      required: true
+  - type: textarea
+    id: photos
+    attributes:
+      label: Photos
+      description: Drag images here. Photos of joints and the base are especially useful.

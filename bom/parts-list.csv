@@ -1,0 +1,16 @@
+part,description,metric_spec,imperial_spec,qty_shelter,qty_bench_addon,used_in_steps,notes
+A,"Strut channel, slotted back, galvanized","41 x 41 mm, 2.5 mm wall, 3048 mm long","1-5/8 x 1-5/8 in, 12 ga, 10 ft long",7,1,"2, 8, 10, B1","4 for posts (2 per post, back to back), 2 beams, 1 leaning rail; bench adds seat rail"
+B,"Strut channel, slotted back, galvanized","41 x 41 mm, 2.5 mm wall, 1219 mm long","1-5/8 x 1-5/8 in, 12 ga, 4 ft long",7,0,"6, 9",2 cantilever arms + 5 purlins
+C,"Strut channel, slotted back, galvanized","41 x 41 mm, 2.5 mm wall, 610 mm long","1-5/8 x 1-5/8 in, 12 ga, 2 ft long",2,9,"7, B1, B2",2 knee braces; bench adds 3 cross arms + 2 legs + 2 armrests + 2 back uprights
+D,"Corrugated polycarbonate roof panel, UV-protected top face","approx. 660 x 3658 mm (any length >= 3048 mm)","26 in x 12 ft (any length >= 10 ft)",2,0,11,Lay lengthwise; overlap to set roof depth 36-48 in
+E,"90 degree strut angle fitting, 4-hole",for 41 mm strut; 14 mm holes,for 1-5/8 in strut; 9/16 in holes,16,6,"3, 6, 7, 8, B1, B2",4 base + 4 arm-to-post + 4 beam-to-arm + 4 knee-brace placeholder (connection per engineer)
+F,Strut channel spring nut,M12,1/2 in-13,54,39,"3, 6, 7, 8, 9, 10, B1-B2",Push into channel and turn 90 degrees
+G,"Hex bolt, zinc-plated or stainless",M12 x 30,1/2 in-13 x 1-1/4 in,74,39,"2, 3, 6-10, B1-B2",Includes 12 post stitch bolts and 8 beam-to-arm bolts
+H,Flat washer,M12,1/2 in,86,39,all bolted joints,Includes spares
+I,Hex nut,M12,1/2 in-13,20,0,"2, 8",12 post stitch bolts + 8 beam-to-arm bolts
+J,"Concrete screw anchor, hex washer head, rated for cracked concrete",dia 12 x 100 mm,1/2 x 4 in,8,0,5,Engineer to confirm embedment vs slab thickness and edge distance; stainless where available
+K,Self-drilling roofing screw with EPDM sealing washer,approx. 5 x 38 mm,#10 x 1-1/2 in,60,0,11,Fasten through corrugation crests into purlins
+L,Corrugation closure strip matched to panel profile,610 mm,24 in,4,0,11,Panel ends
+M,Zinc-rich cold galvanizing spray,aerosol,aerosol,2,0,12,Touch-up at bolted joints and scratches
+N,"Seat / back board, composite or preservative-treated",25 x 140 x 1320 mm,1 x 6 in x 52 in,0,5,B3,Cut 5 pieces from 3 boards of 3658 mm / 12 ft
+P,Carriage bolt with strut nut,M6,1/4 in,0,13,B3,Boards to bench frame

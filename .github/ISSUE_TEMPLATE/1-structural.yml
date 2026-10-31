@@ -1,0 +1,53 @@
+name: Structural / engineering review
+description: Loads, anchors, connections, member capacity or code questions.
+title: "[Structural] "
+labels: ["structural", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reviewing. See `docs/engineering-review.md` for the known open items. Marked-up PDFs are welcome as attachments.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Post base / anchors
+        - Posts
+        - Arm-to-post joint
+        - Knee braces
+        - Beams / beam-to-arm joint
+        - Purlins / roof panels
+        - Leaning rail or bench
+        - Overall stability / wind / seismic
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: revision
+    attributes:
+      label: Revision and sheet or page
+      placeholder: "Rev A, drawing A-501"
+    validations:
+      required: true
+  - type: textarea
+    id: finding
+    attributes:
+      label: Finding
+      description: What you found and why it matters.
+    validations:
+      required: true
+  - type: textarea
+    id: basis
+    attributes:
+      label: Basis
+      description: Code section, calculation, test data or experience behind the finding.
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested change
+  - type: input
+    id: jurisdiction
+    attributes:
+      label: Jurisdiction / design code you're reviewing against
+      placeholder: "California, CBC 2025 / ASCE 7-22"

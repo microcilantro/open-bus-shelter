@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Before you start</title>
+<style>
+
+@font-face{font-family:'IBM Plex Sans';font-weight:400;src:url('../../assets/fonts/IBMPlexSans-Regular.woff2') format('woff2')}
+@font-face{font-family:'IBM Plex Sans';font-weight:500;src:url('../../assets/fonts/IBMPlexSans-Medium.woff2') format('woff2')}
+@font-face{font-family:'IBM Plex Sans';font-weight:600;src:url('../../assets/fonts/IBMPlexSans-SemiBold.woff2') format('woff2')}
+@font-face{font-family:'IBM Plex Sans';font-weight:700;src:url('../../assets/fonts/IBMPlexSans-Bold.woff2') format('woff2')}
+@font-face{font-family:'IBM Plex Mono';font-weight:500;src:url('../../assets/fonts/IBMPlexMono-Medium.woff2') format('woff2')}
+@font-face{font-family:'IBM Plex Mono';font-weight:600;src:url('../../assets/fonts/IBMPlexMono-SemiBold.woff2') format('woff2')}
+
+@page{size:816px 1056px;margin:0}
+html,body{margin:0;background:#ffffff}
+</style>
+</head>
+<body>
+<style>
+body{margin:0}
+a{color:#1d2433}a:hover{color:#000}
+</style>
+
+<div style="width: 816px; height: 1056px; box-sizing: border-box; background: #ffffff; font-family: 'IBM Plex Sans', sans-serif; color: #141418; padding: 48px; display: flex; flex-direction: column; gap: 22px">
+
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px">
+<div style="border: 2px solid #141418; border-radius: 12px; height: 150px; display: flex; align-items: center; justify-content: center; gap: 24px">
+<svg width="60" height="96" viewBox="0 0 60 96" role="img" aria-label="One person">
+<circle cx="30" cy="14" r="10" fill="none" stroke="#141418" stroke-width="3.5"></circle>
+<path d="M30 25 L30 58 M12 38 L48 38 M30 58 L18 90 M30 58 L42 90" fill="none" stroke="#141418" stroke-width="3.5" stroke-linecap="round"></path>
+</svg>
+<svg width="70" height="70" viewBox="0 0 70 70" role="img" aria-label="Not allowed">
+<path d="M10 10 L60 60 M60 10 L10 60" stroke="#141418" stroke-width="8" stroke-linecap="round"></path>
+</svg>
+</div>
+<div style="border: 2px solid #141418; border-radius: 12px; height: 150px; display: flex; align-items: center; justify-content: center; gap: 24px">
+<svg width="104" height="96" viewBox="0 0 104 96" role="img" aria-label="Two people">
+<circle cx="26" cy="14" r="10" fill="none" stroke="#141418" stroke-width="3.5"></circle>
+<path d="M26 25 L26 58 M8 38 L44 38 M26 58 L14 90 M26 58 L38 90" fill="none" stroke="#141418" stroke-width="3.5" stroke-linecap="round"></path>
+<circle cx="78" cy="14" r="10" fill="none" stroke="#141418" stroke-width="3.5"></circle>
+<path d="M78 25 L78 58 M60 38 L96 38 M78 58 L66 90 M78 58 L90 90" fill="none" stroke="#141418" stroke-width="3.5" stroke-linecap="round"></path>
+</svg>
+<svg width="70" height="70" viewBox="0 0 70 70" role="img" aria-label="Correct">
+<path d="M8 38 L28 58 L62 12" fill="none" stroke="#141418" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px">
+<div style="border: 2px solid #141418; border-radius: 12px; height: 112px; display: flex; align-items: center; justify-content: center">
+<svg width="96" height="50" viewBox="0 0 96 50" role="img" aria-label="Safety glasses">
+<path d="M6 16 Q6 8 14 8 L40 8 Q44 8 44 14 L42 30 Q40 40 30 40 L18 40 Q8 40 7 30 Z M52 14 Q52 8 56 8 L82 8 Q90 8 90 16 L89 30 Q88 40 78 40 L66 40 Q56 40 54 30 Z M44 16 Q48 12 52 16" fill="none" stroke="#141418" stroke-width="3.5" stroke-linejoin="round"></path>
+</svg>
+</div>
+<div style="border: 2px solid #141418; border-radius: 12px; height: 112px; display: flex; align-items: center; justify-content: center">
+<svg width="70" height="84" viewBox="0 0 70 84" role="img" aria-label="Work gloves">
+<path d="M18 80 L18 50 L8 34 Q5 28 11 26 Q15 25 18 30 L22 38 L22 12 Q22 6 27 6 Q32 6 32 12 L32 34 L32 8 Q32 2 37 2 Q42 2 42 8 L42 34 L42 12 Q42 6 47 6 Q52 6 52 12 L52 36 L52 20 Q52 14 57 14 Q62 14 62 20 L62 54 Q62 66 54 72 L54 80 Z" fill="none" stroke="#141418" stroke-width="3.5" stroke-linejoin="round"></path>
+</svg>
+</div>
+<div style="border: 2px solid #141418; border-radius: 12px; height: 112px; display: flex; align-items: center; justify-content: center">
+<svg width="86" height="84" viewBox="0 0 86 84" role="img" aria-label="Hearing protection">
+<path d="M14 46 Q14 6 43 6 Q72 6 72 46" fill="none" stroke="#141418" stroke-width="4"></path>
+<rect x="4" y="40" width="22" height="36" rx="10" fill="none" stroke="#141418" stroke-width="3.5"></rect>
+<rect x="60" y="40" width="22" height="36" rx="10" fill="none" stroke="#141418" stroke-width="3.5"></rect>
+</svg>
+</div>
+<div style="border: 2px solid #141418; border-radius: 12px; height: 112px; display: flex; align-items: center; justify-content: center">
+<svg width="90" height="70" viewBox="0 0 90 70" role="img" aria-label="Dust mask">
+<path d="M20 20 Q45 4 70 20 L72 40 Q60 64 45 64 Q30 64 18 40 Z" fill="none" stroke="#141418" stroke-width="3.5" stroke-linejoin="round"></path>
+<path d="M20 24 L4 16 M70 24 L86 16 M18 40 L4 46 M72 40 L86 46" stroke="#141418" stroke-width="3"></path>
+<circle cx="45" cy="40" r="8" fill="none" stroke="#141418" stroke-width="3"></circle>
+</svg>
+</div>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px">
+<div style="border: 2px solid #141418; border-radius: 12px; height: 150px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px">
+<svg width="170" height="86" viewBox="0 0 170 86" role="img" aria-label="Sidewalk at least 1524 millimeters wide">
+<rect x="10" y="8" width="150" height="70" fill="#f1f1f1" stroke="#141418" stroke-width="3"></rect>
+<line x1="10" y1="8" x2="160" y2="8" stroke="#141418" stroke-width="6"></line>
+<line x1="150" y1="12" x2="150" y2="74" stroke="#1f5fae" stroke-width="2.5"></line>
+<path d="M144 18 L150 10 L156 18 M144 68 L150 76 L156 68" fill="none" stroke="#1f5fae" stroke-width="2.5"></path>
+<rect x="40" y="10" width="7" height="12" fill="#141418"></rect><rect x="110" y="10" width="7" height="12" fill="#141418"></rect>
+</svg>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 15px; font-weight: 600; color: #1f5fae">≥ 1524 mm / 5'</div>
+</div>
+<div style="border: 2px solid #141418; border-radius: 12px; height: 150px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px">
+<svg width="170" height="86" viewBox="0 0 170 86" role="img" aria-label="Concrete slab at least 100 millimeters thick, check">
+<path d="M10 30 L130 30 L160 14 L40 14 Z" fill="#f1f1f1" stroke="#141418" stroke-width="3" stroke-linejoin="round"></path>
+<path d="M10 30 L10 66 L130 66 L130 30 M130 66 L160 50 L160 14" fill="none" stroke="#141418" stroke-width="3" stroke-linejoin="round"></path>
+<line x1="4" y1="30" x2="4" y2="66" stroke="#1f5fae" stroke-width="2.5"></line>
+<path d="M0 36 L4 28 L8 36 M0 60 L4 68 L8 60" fill="none" stroke="#1f5fae" stroke-width="2.5"></path>
+<text x="70" y="56" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="28" font-weight="700" fill="#141418">?</text>
+</svg>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 15px; font-weight: 600; color: #1f5fae">≥ 100 mm / 4"</div>
+</div>
+<div style="border: 2px solid #141418; border-radius: 12px; height: 150px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px">
+<svg width="150" height="86" viewBox="0 0 150 86" role="img" aria-label="Keep pedestrians out with cones">
+<path d="M30 80 L44 12 L52 12 L66 80 Z" fill="none" stroke="#141418" stroke-width="3.5" stroke-linejoin="round"></path>
+<path d="M37 48 L59 48 M40 32 L56 32" stroke="#141418" stroke-width="5"></path>
+<line x1="20" y1="80" x2="76" y2="80" stroke="#141418" stroke-width="4"></line>
+<path d="M90 80 L104 12 L112 12 L126 80 Z" fill="none" stroke="#141418" stroke-width="3.5" stroke-linejoin="round"></path>
+<path d="M97 48 L119 48 M100 32 L116 32" stroke="#141418" stroke-width="5"></path>
+<line x1="80" y1="80" x2="136" y2="80" stroke="#141418" stroke-width="4"></line>
+<path d="M52 24 L104 24" stroke="#141418" stroke-width="2.5" stroke-dasharray="6 4"></path>
+</svg>
+</div>
+</div>
+
+<div style="display: flex; align-items: center; gap: 12px; margin-top: 4px">
+<div style="height: 3px; flex: 1; background: #141418"></div>
+<svg width="40" height="40" viewBox="0 0 40 40" role="img" aria-label="Tools">
+<path d="M8 32 L22 18 M24 8 Q32 4 34 12 L30 16 L26 14 L24 10 Z" fill="none" stroke="#141418" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+<div style="height: 3px; flex: 1; background: #141418"></div>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; flex: 1">
+<div style="border: 2px solid #141418; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 8px">
+<svg width="140" height="80" viewBox="0 0 140 80" role="img" aria-label="Hammer drill">
+<rect x="14" y="14" width="56" height="22" rx="6" fill="none" stroke="#141418" stroke-width="3.5"></rect>
+<path d="M30 36 L24 72 L44 72 L48 36" fill="none" stroke="#141418" stroke-width="3.5" stroke-linejoin="round"></path>
+<rect x="70" y="18" width="14" height="14" rx="2" fill="none" stroke="#141418" stroke-width="3.5"></rect>
+<path d="M84 25 L130 25" stroke="#141418" stroke-width="4"></path>
+<path d="M92 21 L96 29 M102 21 L106 29 M112 21 L116 29 M122 21 L126 29" stroke="#141418" stroke-width="2"></path>
+</svg>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; font-weight: 600">Ø13 mm / ½"</div>
+</div>
+<div style="border: 2px solid #141418; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 8px">
+<svg width="130" height="80" viewBox="0 0 130 80" role="img" aria-label="Impact wrench with socket">
+<rect x="14" y="14" width="46" height="22" rx="6" fill="none" stroke="#141418" stroke-width="3.5"></rect>
+<path d="M26 36 L20 72 L40 72 L44 36" fill="none" stroke="#141418" stroke-width="3.5" stroke-linejoin="round"></path>
+<rect x="60" y="19" width="10" height="12" fill="none" stroke="#141418" stroke-width="3"></rect>
+<rect x="70" y="14" width="30" height="22" rx="3" fill="none" stroke="#141418" stroke-width="3.5"></rect>
+<path d="M100 18 L112 18 L118 25 L112 32 L100 32" fill="none" stroke="#141418" stroke-width="3"></path>
+</svg>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; font-weight: 600">19 mm / ¾"</div>
+</div>
+<div style="border: 2px solid #141418; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 8px">
+<svg width="130" height="80" viewBox="0 0 130 80" role="img" aria-label="Wrench">
+<path d="M28 58 L92 22" stroke="#141418" stroke-width="10" stroke-linecap="round"></path>
+<path d="M92 22 L92 22" stroke="#ffffff" stroke-width="4"></path>
+<circle cx="100" cy="18" r="14" fill="#ffffff" stroke="#141418" stroke-width="3.5"></circle>
+<path d="M100 18 L116 8" stroke="#ffffff" stroke-width="10"></path>
+<circle cx="22" cy="62" r="12" fill="#ffffff" stroke="#141418" stroke-width="3.5"></circle>
+<path d="M17 57 L27 57 L32 62 L27 67 L17 67 L12 62 Z" fill="none" stroke="#141418" stroke-width="2.5"></path>
+</svg>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; font-weight: 600">19 mm / ¾"</div>
+</div>
+<div style="border: 2px solid #141418; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 8px">
+<svg width="140" height="80" viewBox="0 0 140 80" role="img" aria-label="Spirit level">
+<rect x="6" y="30" width="128" height="22" rx="3" fill="none" stroke="#141418" stroke-width="3.5"></rect>
+<rect x="56" y="34" width="28" height="14" rx="7" fill="none" stroke="#141418" stroke-width="3"></rect>
+<circle cx="70" cy="41" r="4" fill="#141418"></circle>
+<path d="M20 30 L20 52 M120 30 L120 52" stroke="#141418" stroke-width="2"></path>
+</svg>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; font-weight: 600">1.2 m / 4'</div>
+</div>
+<div style="border: 2px solid #141418; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 8px">
+<svg width="130" height="80" viewBox="0 0 130 80" role="img" aria-label="Tape measure">
+<rect x="10" y="14" width="52" height="52" rx="10" fill="none" stroke="#141418" stroke-width="3.5"></rect>
+<circle cx="36" cy="40" r="12" fill="none" stroke="#141418" stroke-width="3"></circle>
+<path d="M62 56 L120 56 L120 66 L62 66" fill="none" stroke="#141418" stroke-width="3"></path>
+<path d="M72 56 L72 61 M82 56 L82 61 M92 56 L92 61 M102 56 L102 61 M112 56 L112 61" stroke="#141418" stroke-width="2"></path>
+</svg>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; font-weight: 600">≥ 5 m / 16'</div>
+</div>
+<div style="border: 2px solid #141418; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 8px">
+<svg width="120" height="84" viewBox="0 0 120 84" role="img" aria-label="Two stepladders">
+<path d="M14 80 L30 6 L46 80 M18 62 L42 62 M22 44 L38 44 M26 26 L34 26" fill="none" stroke="#141418" stroke-width="3.5" stroke-linejoin="round"></path>
+<path d="M30 6 L50 80" stroke="#141418" stroke-width="2.5"></path>
+<path d="M66 80 L82 6 L98 80 M70 62 L94 62 M74 44 L90 44 M78 26 L86 26" fill="none" stroke="#141418" stroke-width="3.5" stroke-linejoin="round"></path>
+<path d="M82 6 L102 80" stroke="#141418" stroke-width="2.5"></path>
+</svg>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; font-weight: 600">2.4 m / 8' ×2</div>
+</div>
+<div style="border: 2px solid #141418; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 8px">
+<svg width="120" height="80" viewBox="0 0 120 80" role="img" aria-label="Bar clamps">
+<path d="M14 10 L14 70 M14 14 L44 14 L44 26 M14 66 L44 66 L44 54 M44 54 L44 40" fill="none" stroke="#141418" stroke-width="3.5" stroke-linejoin="round"></path>
+<path d="M36 40 L52 40" stroke="#141418" stroke-width="5"></path>
+<path d="M70 10 L70 70 M70 14 L100 14 L100 26 M70 66 L100 66 L100 54 M100 54 L100 40" fill="none" stroke="#141418" stroke-width="3.5" stroke-linejoin="round"></path>
+<path d="M92 40 L108 40" stroke="#141418" stroke-width="5"></path>
+</svg>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; font-weight: 600">×2</div>
+</div>
+<div style="border: 2px solid #141418; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 8px">
+<svg width="130" height="80" viewBox="0 0 130 80" role="img" aria-label="Blow-out bulb and wire brush">
+<ellipse cx="26" cy="46" rx="18" ry="24" fill="none" stroke="#141418" stroke-width="3.5"></ellipse>
+<path d="M26 22 L26 6" stroke="#141418" stroke-width="5" stroke-linecap="round"></path>
+<rect x="60" y="34" width="62" height="14" rx="4" fill="none" stroke="#141418" stroke-width="3.5"></rect>
+<path d="M64 48 L64 64 M70 48 L70 64 M76 48 L76 64 M82 48 L82 64 M88 48 L88 64" stroke="#141418" stroke-width="2.5"></path>
+</svg>
+</div>
+</div>
+
+<div style="display: flex; justify-content: space-between; font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #4b5363">
+<div>OBS-10</div>
+<div>2</div>
+</div>
+</div>
+</body>
+</html>

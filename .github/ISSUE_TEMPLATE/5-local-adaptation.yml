@@ -1,0 +1,33 @@
+name: Local adaptation
+description: Climate, codes, fleet or sidewalk conditions that need a variant.
+title: "[Adaptation] "
+labels: ["regional-variant", "needs-triage"]
+body:
+  - type: input
+    id: place
+    attributes:
+      label: Place
+      placeholder: "Phoenix, Arizona"
+    validations:
+      required: true
+  - type: dropdown
+    id: driver
+    attributes:
+      label: What's different there?
+      multiple: true
+      options:
+        - Climate (heat, sun, snow, coastal corrosion, high wind)
+        - Building or right-of-way codes
+        - Bus fleet (mirror height, doors, boarding)
+        - Sidewalk widths or construction
+        - Parts availability
+        - Language / measurement units
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What would need to change?
+    validations:
+      required: true

@@ -1,0 +1,32 @@
+name: Manual clarity
+description: A manual page or step that's unclear, wrong or could be drawn better.
+title: "[Manual] "
+labels: ["manual", "needs-triage"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page and step number
+      placeholder: "Page 7, step 4"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type of problem
+      options:
+        - I couldn't tell what to do
+        - Wrong part or quantity
+        - Wrong dimension
+        - Drawing is hard to read
+        - Missing step or tool
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What you expected to see, and what would make it clear. A sketch or photo helps.
+    validations:
+      required: true

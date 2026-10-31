@@ -1,0 +1,30 @@
+name: Parts and sourcing
+description: Part availability, local equivalents, prices or parts-list errors.
+title: "[Parts] "
+labels: ["parts-sourcing", "needs-triage"]
+body:
+  - type: input
+    id: part
+    attributes:
+      label: Part letter(s)
+      placeholder: "E, J"
+    validations:
+      required: true
+  - type: input
+    id: country
+    attributes:
+      label: Country / region
+      placeholder: "Mexico, Jalisco"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What did you find?
+      description: Local equivalent, availability, price and pack size, or an error in the parts list. Generic descriptions please; brand names only as examples.
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Date of price check

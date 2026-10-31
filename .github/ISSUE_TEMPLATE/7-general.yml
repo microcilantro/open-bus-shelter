@@ -1,0 +1,11 @@
+name: Other feedback
+description: Anything that doesn't fit the other forms.
+title: ""
+labels: ["needs-triage"]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+    validations:
+      required: true
