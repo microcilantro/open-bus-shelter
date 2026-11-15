@@ -4,7 +4,15 @@
 set -euo pipefail
 REPO="${1:-microcilantro/open-bus-shelter}"
 
-label() { gh label create "$1" --repo "$REPO" --color "$2" --description "$3" --force; }
+label() {
+  local name="$1" color="$2" desc="$3"
+  if gh api "repos/$REPO/labels" -f name="$name" -f color="$color" -f description="$desc" >/dev/null 2>&1; then
+    echo "created  $name"
+  else
+    gh api -X PATCH "repos/$REPO/labels/$(printf %s "$name" | sed 's/ /%20/g')" \
+      -f color="$color" -f description="$desc" >/dev/null && echo "updated  $name"
+  fi
+}
 
 label "needs-triage"     "ededed" "New feedback, not yet reviewed"
 label "structural"       "b60205" "Loads, members, connections, stability"
