@@ -3,6 +3,3 @@ contact_links:
   - name: Ask a question or share an idea
     url: https://github.com/microcilantro/open-bus-shelter/discussions
     about: Open-ended conversation that isn't a specific fix yet.
-  - name: Not on GitHub? Use the feedback page
-    url: https://microcilantro.github.io/open-bus-shelter/#feedback
-    about: A short form for people without a GitHub account.

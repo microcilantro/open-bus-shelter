@@ -37,7 +37,6 @@ Feedback is what this draft is for. Pick the route that fits:
 
 - **Something specific to fix or check** → [open an issue](../../issues/new/choose). There are forms for structural/engineering, accessibility, parts and sourcing, manual clarity, local adaptations and build reports.
 - **Open questions and ideas** → [Discussions](../../discussions).
-- **Not on GitHub?** Use the feedback link on the [project site](https://microcilantro.github.io/open-bus-shelter/).
 
 Engineers reviewing the design: markup on the drawing PDF is welcome. Attach it to a structural issue.
 
